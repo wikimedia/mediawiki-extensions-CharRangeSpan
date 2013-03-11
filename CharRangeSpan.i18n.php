@@ -4,7 +4,7 @@
 $messages = array();
 
 $messages['en'] = array(
-	'charrangespan-desc' => "Wraps any characters in defined ranges within defined span tags",
+	'charrangespan-desc' => 'Wraps any characters in defined ranges within defined <code>&lt;span&gt;</code> tags',
 );
 
 /** Message documentation (Message documentation)
