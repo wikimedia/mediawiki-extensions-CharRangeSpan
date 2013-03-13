@@ -15,6 +15,13 @@ $messages['qqq'] = array(
 Do not translate "<code>span</code>". It is an HTML tag.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'charrangespan-desc' => 'Rodea tolos carácteres de les árees definíes coles etiquetes <code>&lt;span&gt;</code> definíes',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -33,7 +40,7 @@ $messages['gl'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'charrangespan-desc' => '指定した文字コード範囲の文字を、指定した span タグで囲む', # Fuzzy
+	'charrangespan-desc' => '指定した文字コード範囲の文字を、指定した <code>&lt;span&gt;</code> タグで囲む',
 );
 
 /** Macedonian (македонски)
