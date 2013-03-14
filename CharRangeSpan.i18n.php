@@ -63,3 +63,10 @@ $messages['nl'] = array(
 $messages['roa-tara'] = array(
 	'charrangespan-desc' => "Tagghie ogne carattere jndr'à l'indervalle definite cu le tag de ''span'' definite", # Fuzzy
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'charrangespan-desc' => '以定义的<code>&lt;span&gt;</code>标签包裹指定范围内的任意字符',
+);
