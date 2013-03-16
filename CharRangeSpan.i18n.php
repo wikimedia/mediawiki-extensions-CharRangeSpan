@@ -36,11 +36,25 @@ $messages['gl'] = array(
 	'charrangespan-desc' => 'Axusta calquera carácter aos rangos definidos, dentro das etiquetas span definidas', # Fuzzy
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'charrangespan-desc' => 'Łama znamješka w definowanych wobłukach znutřka definowanych značkow <code>&lt;span&gt;</code>',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
 $messages['ja'] = array(
 	'charrangespan-desc' => '指定した文字コード範囲の文字を、指定した <code>&lt;span&gt;</code> タグで囲む',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'charrangespan-desc' => '지정한 문자 코드 범위에 있는 문자를 정의한 <code>&lt;span&gt;</code> 태그로 묶습니다',
 );
 
 /** Macedonian (македонски)
