@@ -29,6 +29,13 @@ $messages['de'] = array(
 	'charrangespan-desc' => 'Ermöglicht den Umbruch beliebiger Zeichen in definierten Bereichen innerhalb definierter <code>&lt;span&gt;</code>-Tags',
 );
 
+/** French (français)
+ * @author Peter17
+ */
+$messages['fr'] = array(
+	'charrangespan-desc' => 'Encadre tous les caractères dans des plages définies avec des balises <code>&lt;span&gt;</code>',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
