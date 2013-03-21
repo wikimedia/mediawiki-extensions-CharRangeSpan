@@ -40,7 +40,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'charrangespan-desc' => 'Axusta calquera carácter aos rangos definidos, dentro das etiquetas span definidas', # Fuzzy
+	'charrangespan-desc' => 'Axusta calquera carácter aos rangos definidos, dentro das etiquetas <code>&lt;span&gt;</code> definidas',
 );
 
 /** Upper Sorbian (hornjoserbsce)
