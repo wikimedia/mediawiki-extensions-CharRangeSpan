@@ -85,6 +85,13 @@ $messages['roa-tara'] = array(
 	'charrangespan-desc' => "Tagghie ogne carattere jndr'à l'indervalle definite cu le tag de ''span'' definite", # Fuzzy
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'charrangespan-desc' => 'Nagbabalot ng anumang mga panitik sa loob ng inilarawang mga kasaklawan na nasa loob ng inilarawang mga tatak na <code>&lt;span&gt;</code>',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
