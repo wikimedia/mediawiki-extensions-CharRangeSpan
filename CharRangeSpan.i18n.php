@@ -82,7 +82,7 @@ $messages['nl'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'charrangespan-desc' => "Tagghie ogne carattere jndr'à l'indervalle definite cu le tag de ''span'' definite", # Fuzzy
+	'charrangespan-desc' => "Tagghie ogne carattere jndr'à l'indervalle definite cu le tag de <code>&lt;span&gt;</code> definite",
 );
 
 /** Tagalog (Tagalog)
