@@ -64,6 +64,13 @@ $messages['ko'] = array(
 	'charrangespan-desc' => '지정한 문자 코드 범위에 있는 문자를 정의한 <code>&lt;span&gt;</code> 태그로 묶습니다',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'charrangespan-desc' => 'Deiht Zeische us enem beschtemmte Berätt med vörjejovve <code>&lt;span&gt;</code> Kommandos ömjäve.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
