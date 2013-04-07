@@ -22,6 +22,13 @@ $messages['ast'] = array(
 	'charrangespan-desc' => 'Rodea tolos carácteres de les árees definíes coles etiquetes <code>&lt;span&gt;</code> definíes',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'charrangespan-desc' => 'Sterniañ a ra an holl arouezennoù e lijorennoù termenet gant balizennoù <code>&lt;span&gt;</code>',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
