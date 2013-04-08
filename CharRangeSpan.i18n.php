@@ -89,7 +89,7 @@ $messages['mk'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'charrangespan-desc' => 'Tekens uit aangegeven reeksen lopen automatisch terug met het label <code>&lt;span&gt;</code>',
+	'charrangespan-desc' => 'Tekens uit opgegeven reeksen lopen automatisch terug met het label <code>&lt;span&gt;</code>',
 );
 
 /** tarandíne (tarandíne)
