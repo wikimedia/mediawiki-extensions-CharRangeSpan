@@ -85,6 +85,13 @@ $messages['mk'] = array(
 	'charrangespan-desc' => 'Става било кои знаци во зададени опсези на зададени ознаки за опфат <code>&lt;span&gt;</code>',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'charrangespan-desc' => 'Membalut sebarang aksara dalam julat yang tertentu dalam lingkungan teg <code>&lt;span&gt;</code> yang tertentu',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
