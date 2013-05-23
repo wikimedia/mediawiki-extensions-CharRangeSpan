@@ -113,6 +113,13 @@ $messages['tl'] = array(
 	'charrangespan-desc' => 'Nagbabalot ng anumang mga panitik sa loob ng inilarawang mga kasaklawan na nasa loob ng inilarawang mga tatak na <code>&lt;span&gt;</code>',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Tuankiet65
+ */
+$messages['vi'] = array(
+	'charrangespan-desc' => 'Bao bọc mọi chữ cái trong phạm vi định trước với thẻ <code>&lt;span&gt;</code> định trước.',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
