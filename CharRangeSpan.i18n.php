@@ -126,3 +126,10 @@ $messages['vi'] = array(
 $messages['zh-hans'] = array(
 	'charrangespan-desc' => '以定义的<code>&lt;span&gt;</code>标签包裹指定范围内的任意字符',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'charrangespan-desc' => '以定義的<code>&lt;span&gt;</code>標籤包裹指定範圍内的任意字符',
+);
