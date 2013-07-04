@@ -64,6 +64,13 @@ $messages['hsb'] = array(
 	'charrangespan-desc' => 'Łama znamješka w definowanych wobłukach znutřka definowanych značkow <code>&lt;span&gt;</code>',
 );
 
+/** Italian (italiano)
+ * @author Gianfranco
+ */
+$messages['it'] = array(
+	'charrangespan-desc' => 'Avvolge i caratteri in intervalli definiti fra i tag <code>&lt;span&gt;</code>',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
