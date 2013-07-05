@@ -65,10 +65,11 @@ $messages['hsb'] = array(
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Gianfranco
  */
 $messages['it'] = array(
-	'charrangespan-desc' => 'Avvolge i caratteri in intervalli definiti fra i tag <code>&lt;span&gt;</code>',
+	'charrangespan-desc' => 'Racchiude i caratteri in intervalli definiti fra i tag <code>&lt;span&gt;</code>',
 );
 
 /** Japanese (日本語)
