@@ -43,6 +43,13 @@ $messages['es'] = array(
 	'charrangespan-desc' => 'Encierra los caracteres en los rangos definidos dentro de las etiquetas <code><span></code>',
 );
 
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'charrangespan-desc' => 'هر کارکتر را در بازهٔ تعریف شده در <code>&lt;span&gt;</code> لفافه می‌کند',
+);
+
 /** French (français)
  * @author Peter17
  */
