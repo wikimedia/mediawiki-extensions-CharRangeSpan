@@ -135,6 +135,13 @@ $messages['tl'] = array(
 	'charrangespan-desc' => 'Nagbabalot ng anumang mga panitik sa loob ng inilarawang mga kasaklawan na nasa loob ng inilarawang mga tatak na <code>&lt;span&gt;</code>',
 );
 
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'charrangespan-desc' => 'Бере будь-які символи з визначених діапазонів у визначені <code>&lt;span&gt;</code> теґи',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Tuankiet65
  */
