@@ -71,6 +71,13 @@ $messages['hsb'] = array(
 	'charrangespan-desc' => 'Łama znamješka w definowanych wobłukach znutřka definowanych značkow <code>&lt;span&gt;</code>',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'charrangespan-desc' => 'Inveloppa omne characteres in rangos definite intra etiquettas  <code>&lt;span&gt;</code> definite',
+);
+
 /** Italian (italiano)
  * @author Beta16
  * @author Gianfranco
