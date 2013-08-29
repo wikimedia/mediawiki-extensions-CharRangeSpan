@@ -128,6 +128,13 @@ $messages['nl'] = array(
 	'charrangespan-desc' => 'Tekens uit opgegeven reeksen lopen automatisch terug met het label <code>&lt;span&gt;</code>',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'charrangespan-desc' => 'Enquadra totes los caractèrs dins de plajas definidas amb de balisas <code>&lt;span&gt;</code>',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
