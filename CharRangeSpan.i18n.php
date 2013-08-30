@@ -22,6 +22,13 @@ $messages['ast'] = array(
 	'charrangespan-desc' => 'Rodea tolos carácteres de les árees definíes coles etiquetes <code>&lt;span&gt;</code> definíes',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'charrangespan-desc' => 'Minapatos sa arinman na mga karakter sa pinagkahulugan na mga lakwas sa laog kan pinagkahulugan na mga <code>&lt;span&gt;</code> tatak',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
