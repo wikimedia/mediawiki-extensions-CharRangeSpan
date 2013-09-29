@@ -149,6 +149,13 @@ $messages['roa-tara'] = array(
 	'charrangespan-desc' => "Tagghie ogne carattere jndr'à l'indervalle definite cu le tag de <code>&lt;span&gt;</code> definite",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'charrangespan-desc' => 'Оборачивает любые символы в определённых диапазонах определёнными тегами <code>&lt;span&gt;</code>',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
