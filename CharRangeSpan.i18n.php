@@ -43,6 +43,13 @@ $messages['de'] = array(
 	'charrangespan-desc' => 'Ermöglicht den Umbruch beliebiger Zeichen in definierten Bereichen innerhalb definierter <code>&lt;span&gt;</code>-Tags',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'charrangespan-desc' => 'Łama znamuška w definěrowanych wobłukach w definěrowanych elemaentach <code>&lt;span&gt;</code>',
+);
+
 /** Spanish (español)
  * @author VegaDark
  */
