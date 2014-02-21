@@ -163,6 +163,13 @@ $messages['ru'] = array(
 	'charrangespan-desc' => 'Оборачивает любые символы в определённых диапазонах определёнными тегами <code>&lt;span&gt;</code>',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'charrangespan-desc' => 'Wraps oni chairacters in defined ranges wiin defined <code>&lt;span&gt;</code> tags',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
