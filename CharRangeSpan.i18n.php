@@ -149,6 +149,13 @@ $messages['oc'] = array(
 	'charrangespan-desc' => 'Enquadra totes los caractèrs dins de plajas definidas amb de balisas <code>&lt;span&gt;</code>',
 );
 
+/** Portuguese (português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'charrangespan-desc' => "Coloca entre ''tags'' <code>&lt;span&gt;</code> definidas quaisquer caracteres que estejam dentro de intervalos definidos",
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
