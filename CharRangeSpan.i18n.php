@@ -78,6 +78,13 @@ $messages['gl'] = array(
 	'charrangespan-desc' => 'Axusta calquera carácter aos rangos definidos, dentro das etiquetas <code>&lt;span&gt;</code> definidas',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'charrangespan-desc' => 'עוטף את התווים בתחום המוגדר בין תגי <code>&lt;span&gt;</code>',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
