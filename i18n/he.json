@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yona b"
-        ]
-    },
-    "charrangespan-desc": "עוטף את התווים בתחום המוגדר בין תגי <code>&lt;span&gt;</code>"
+	"@metadata": {
+		"authors": [
+			"Yona b"
+		]
+	},
+	"charrangespan-desc": "עוטף את התווים בתחום המוגדר בין תגי <code>&lt;span&gt;</code>"
 }

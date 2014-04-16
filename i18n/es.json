@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "VegaDark"
-        ]
-    },
-    "charrangespan-desc": "Encierra los caracteres en los rangos definidos dentro de las etiquetas <code><span></code>"
+	"@metadata": {
+		"authors": [
+			"VegaDark"
+		]
+	},
+	"charrangespan-desc": "Encierra los caracteres en los rangos definidos dentro de las etiquetas <code><span></code>"
 }
