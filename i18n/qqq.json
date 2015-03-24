@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"charrangespan-desc": "{{desc|name=Char Range Span|url=http://www.mediawiki.org/wiki/Extension:CharRangeSpan}}\nDo not translate \"<code>span</code>\". It is an HTML tag."
+	"charrangespan-desc": "{{desc|name=Char Range Span|url=https://www.mediawiki.org/wiki/Extension:CharRangeSpan}}\nDo not translate \"<code>span</code>\". It is an HTML tag."
 }
