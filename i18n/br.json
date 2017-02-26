@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Y-M D"
+			"Y-M D",
+			"Fulup"
 		]
 	},
-	"charrangespan-desc": "Sterniañ a ra an holl arouezennoù e lijorennoù termenet gant balizennoù <code>&lt;span&gt;</code>"
+	"charrangespan-desc": "Sterniañ a ra an holl arouezennoù e lijorennoù termenet gant tikedennoù <code>&lt;span&gt;</code>"
 }
