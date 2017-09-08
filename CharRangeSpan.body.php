@@ -11,7 +11,7 @@ class CharRangeSpan {
 	 * Only public entry point of this class.
 	 * Called from ParserBeforeTidy
 	 */
-	public static function doCharRangeSpan( $parser, $text ) {
+	public static function doCharRangeSpan( &$parser, &$text ) {
 		global $wgCharRangeSpanSettings;
 
 		foreach( $wgCharRangeSpanSettings as $name => $options ) {
