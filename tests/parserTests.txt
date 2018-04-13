@@ -64,9 +64,9 @@ Greek and English, with a list
 * ωορ
 * λδ today.
 !! result
-<ul><li> hello</li>
-<li> <span lang="grc">ωορ</span></li>
-<li> <span lang="grc">λδ</span> today.</li></ul>
+<ul><li>hello</li>
+<li><span lang="grc">ωορ</span></li>
+<li><span lang="grc">λδ</span> today.</li></ul>
 
 !! end
 
