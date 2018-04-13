@@ -1,7 +1,7 @@
 # Extra tests for parserTests.php, with the default configuration of CharRangeSpan
 #
 # Enable the extension, then test with:
-#   php tests/parserTests.php --file=extensions/CharRangeSpan/tests/parserTests.txt
+#   php tests/parserTests.php --file=extensions/CharRangeSpan/tests/parser/parserTests.txt
 
 !! test
 Only Greek text

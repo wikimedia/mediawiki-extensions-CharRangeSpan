@@ -30,6 +30,6 @@ $wgCharRangeSpanSettings = array(
 
 $wgAutoloadClasses['CharRangeSpan'] = dirname( __FILE__ ) . '/CharRangeSpan.body.php';
 $wgMessagesDirs['CharRangeSpan'] = __DIR__ . '/i18n';
-$wgParserTestFiles[] = dirname( __FILE__ ) . '/tests/parserTests.txt';
+$wgParserTestFiles[] = dirname( __FILE__ ) . '/tests/parser/parserTests.txt';
 
 $wgHooks['ParserBeforeTidy'][] = 'CharRangeSpan::doCharRangeSpan';
