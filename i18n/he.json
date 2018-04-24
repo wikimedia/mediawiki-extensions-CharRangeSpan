@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yona b"
+			"Yona b",
+			"Guycn2"
 		]
 	},
-	"charrangespan-desc": "עוטף את התווים בתחום המוגדר בין תגי <code>&lt;span&gt;</code>"
+	"charrangespan-desc": "עטיפת התווים בתחום המוגדר בין תגי <code>&lt;span&gt;</code>"
 }
