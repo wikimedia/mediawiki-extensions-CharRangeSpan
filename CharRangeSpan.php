@@ -1,35 +1,14 @@
 <?php
-/* See COPYING file for copyright and license details. */
-
-if( !defined( 'MEDIAWIKI' ) ) {
-	die( "This is an extension to the MediaWiki package and cannot be run standalone." );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'CharRangeSpan' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['CharRangeSpan'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the CharRangeSpan extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the CharRangeSpan extension requires MediaWiki 1.29+' );
 }
-
-$wgExtensionCredits['parserhook'][] = array(
-	'path' => __FILE__,
-	'name' => 'Character range span',
-	'version' => '0.10.0',
-	'author' => 'Nick White',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:CharRangeSpan',
-	'descriptionmsg' => 'charrangespan-desc',
-);
-
-/* Default settings: any Greek characters are enclosed in <span lang="grc"> tags */
-$wgCharRangeSpanSettings = array(
-	'grc' => array(
-		'ranges' => array(
-			array( '0300', '036F' ), /* combining diacritics */
-			array( '0370', '03FF' ), /* greek */
-			array( '1F00', '1FFF' ), /* greek extended */
-		),
-		'attrs' => 'lang="grc"', /* sets the attribute for the span */
-		'maybeChars' => '\\s\\,\\.\\-', /* characters which may (or may not) be included in span */
-		                                /* these must be escaped for a PHP regular expression */
-	),
-);
-
-$wgAutoloadClasses['CharRangeSpan'] = dirname( __FILE__ ) . '/CharRangeSpan.body.php';
-$wgMessagesDirs['CharRangeSpan'] = __DIR__ . '/i18n';
-$wgParserTestFiles[] = dirname( __FILE__ ) . '/tests/parser/parserTests.txt';
-
-$wgHooks['ParserBeforeTidy'][] = 'CharRangeSpan::doCharRangeSpan';
