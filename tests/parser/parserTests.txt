@@ -67,7 +67,6 @@ Greek and English, with a list
 <ul><li>hello</li>
 <li><span lang="grc">ωορ</span></li>
 <li><span lang="grc">λδ</span> today.</li></ul>
-
 !! end
 
 !! test
@@ -97,7 +96,6 @@ Greek and English in a table
 <td>Hello <span lang="grc">ωο</span></td>
 <td><span lang="grc">ρλδ</span>
 </td></tr></table>
-
 !! end
 
 !! test
