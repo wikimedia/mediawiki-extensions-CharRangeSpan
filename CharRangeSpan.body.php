@@ -14,7 +14,7 @@ class CharRangeSpan {
 	public static function doCharRangeSpan( &$parser, &$text ) {
 		global $wgCharRangeSpanSettings;
 
-		foreach( $wgCharRangeSpanSettings as $name => $options ) {
+		foreach ( $wgCharRangeSpanSettings as $name => $options ) {
 			$rangeSpanObj = new self( $options, $name );
 			$text = $rangeSpanObj->addSpans( $text );
 		}
@@ -28,8 +28,8 @@ class CharRangeSpan {
 	 * @param String $name What language code is this for.
 	 */
 	private function __construct( $opts, $name ) {
-		foreach( array( 'attrs', 'ranges', 'maybeChars' ) as $a ) {
-			if( !isset( $opts[$a] ) ) {
+		foreach ( [ 'attrs', 'ranges', 'maybeChars' ] as $a ) {
+			if ( !isset( $opts[$a] ) ) {
 				throw new MWException( "CharRangeSpan error: " . $a . " not set for " . $name );
 			}
 			$this->$a = $opts[$a];
@@ -38,22 +38,20 @@ class CharRangeSpan {
 
 		// This extension runs after most parsing is done. Hence
 		// the only characters left to worry about are &, <, > and U+7F (U+7F is used internally)
-		if( preg_match( '/['. $this->maybeChars . ']/', "&<>\x7F" ) ) {
+		if ( preg_match( '/[' . $this->maybeChars . ']/', "&<>\x7F" ) ) {
 			throw new MWException( "CharRangeSpan error: " . $name . " maybeChars contains html markup"
 			. " characters. These cannot be used safely, as they lead to inconsistency." );
 		}
 		// Note that & is 38, < is 60, > is 62, and "DEL" (aka U+7F) is 127.
-		foreach( $this->ranges as $r ) {
-			if ( ( hexdec($r[0]) <= 38 && hexdec($r[1]) >= 38 ) ||
-			   ( hexdec($r[0]) <= 60 && hexdec($r[1]) >= 60 ) ||
-			   ( hexdec($r[0]) <= 62 && hexdec($r[1]) >= 62 ) ||
-			   ( hexdec($r[0]) <= 127 && hexdec($r[1]) >= 127 ) )
-			{
+		foreach ( $this->ranges as $r ) {
+			if ( ( hexdec( $r[0] ) <= 38 && hexdec( $r[1] ) >= 38 ) ||
+			   ( hexdec( $r[0] ) <= 60 && hexdec( $r[1] ) >= 60 ) ||
+			   ( hexdec( $r[0] ) <= 62 && hexdec( $r[1] ) >= 62 ) ||
+			   ( hexdec( $r[0] ) <= 127 && hexdec( $r[1] ) >= 127 ) ) {
 				throw new MWException( "CharRangeSpan error: &, <, >, and <DEL> are not allowed in range."
 				. " These cannot be used safely since they interfere with HTML tags." );
 			}
 		}
-
 	}
 
 	/**
@@ -66,12 +64,12 @@ class CharRangeSpan {
 		 * so it can safely run multiple times on the same text. This is not
 		 * foolproof, but is good enough.
 		 */
-		if( preg_match( '/' . preg_quote( $this->replacementSpan, '/' ) . '/', $text ) ) {
+		if ( preg_match( '/' . preg_quote( $this->replacementSpan, '/' ) . '/', $text ) ) {
 			return;
 		}
 
 		$range = "";
-		foreach( $this->ranges as $r ) {
+		foreach ( $this->ranges as $r ) {
 			$range .= '\x{' . $r[0] . '}-\x{' . $r[1] . '}';
 		}
 
@@ -84,8 +82,8 @@ class CharRangeSpan {
 		 */
 		$regex = '/(\<[^<]*\>|&\S*?;)|(?:[' . $range . ']+(?:[' . $this->maybeChars . ']+[' . $range . ']+)*)/u';
 
-		$newtext = preg_replace_callback( $regex, array( $this, 'replacementCallback' ), $text );
-		if( $newtext !== null ) {
+		$newtext = preg_replace_callback( $regex, [ $this, 'replacementCallback' ], $text );
+		if ( $newtext !== null ) {
 			return $newtext;
 		} else {
 			wfDebug( "Error doing replacement regex in " . __METHOD__ );
