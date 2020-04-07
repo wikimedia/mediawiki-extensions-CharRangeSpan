@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"VegaDark",
-			"Fitoschido"
+			"Fitoschido",
+			"VegaDark"
 		]
 	},
 	"charrangespan-desc": "Encierra cualesquier caracteres en intervalos definidos de las etiquetas <code>&lt;span&gt;</code> que se indiquen"
