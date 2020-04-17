@@ -17,7 +17,7 @@
 		"CharRangeSpan": "CharRangeSpan.body.php"
 	},
 	"Hooks": {
-		"ParserBeforeTidy": "CharRangeSpan::doCharRangeSpan"
+		"ParserAfterTidy": "CharRangeSpan::doCharRangeSpan"
 	},
 	"config": {
 		"CharRangeSpanSettings": {
