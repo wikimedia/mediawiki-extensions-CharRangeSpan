@@ -24,8 +24,8 @@ class CharRangeSpan {
 	/**
 	 * Does some checks to make sure valid parameters were given
 	 *
-	 * @param Array $opts Options from $wgCharRangeSpanSettings
-	 * @param String $name What language code is this for.
+	 * @param array $opts Options from $wgCharRangeSpanSettings
+	 * @param string $name What language code is this for.
 	 */
 	private function __construct( $opts, $name ) {
 		foreach ( [ 'attrs', 'ranges', 'maybeChars' ] as $a ) {
@@ -57,7 +57,7 @@ class CharRangeSpan {
 	/**
 	 * Actually add the spans to the text
 	 *
-	 * @param String $text The html content of the page.
+	 * @param string $text The html content of the page.
 	 */
 	private function addSpans( $text ) {
 		/* Don't touch anything if the desired span is already in the text,
