@@ -2,14 +2,21 @@
 /* See COPYING file for copyright and license details. */
 
 class CharRangeSpan {
+	/** @var string */
 	private $attrs;
+	/** @var string[][] */
 	private $ranges;
+	/** @var string */
 	private $maybeChars;
+	/** @var string */
 	private $replacementSpan;
 
 	/**
 	 * Only public entry point of this class.
 	 * Called from ParserAfterTidy
+	 * @param Parser &$parser
+	 * @param string &$text
+	 * @return true
 	 */
 	public static function doCharRangeSpan( &$parser, &$text ) {
 		global $wgCharRangeSpanSettings;
@@ -58,6 +65,7 @@ class CharRangeSpan {
 	 * Actually add the spans to the text
 	 *
 	 * @param string $text The html content of the page.
+	 * @return string|void
 	 */
 	private function addSpans( $text ) {
 		/* Don't touch anything if the desired span is already in the text,
@@ -94,6 +102,8 @@ class CharRangeSpan {
 	/**
 	 * Wrap matched text in a span, unless
 	 * it is an html tag or an entity reference.
+	 * @param string[] $match
+	 * @return string
 	 */
 	private function replacementCallback( $match ) {
 		if ( isset( $match[1] ) && $match[1] !== '' ) {
